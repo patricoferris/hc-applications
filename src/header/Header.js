@@ -4,7 +4,7 @@ import './header.css';
 
 export default function Header() {
   return (
-    <header>
+    <header className="site-header">
       <Link to='/'>Hack Cambridge - <em>Review System</em></Link>
     </header>
   );
